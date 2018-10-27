@@ -1,6 +1,6 @@
 <?php
 
-namespace Tonik\Theme\App\Structure;
+namespace Ascii\Theme\App\Structure;
 
 /*
 |-----------------------------------------------------------
@@ -13,7 +13,7 @@ namespace Tonik\Theme\App\Structure;
 |
 */
 
-use function Tonik\Theme\App\config;
+use function Ascii\Theme\App\config;
 
 /**
  * Registers `book` custom post type.
@@ -44,4 +44,4 @@ function register_book_post_type()
         ],
     ]);
 }
-add_action('init', 'Tonik\Theme\App\Structure\register_book_post_type');
+add_action('init', 'Ascii\Theme\App\Structure\register_book_post_type');

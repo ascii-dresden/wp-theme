@@ -9,7 +9,7 @@
                         /**
                          * Functions hooked into `theme/single/content` action.
                          *
-                         * @hooked Tonik\Theme\App\Structure\render_post_content - 10
+                         * @hooked Ascii\Theme\App\Structure\render_post_content - 10
                          */
                         do_action('theme/single/content');
                     ?>
@@ -22,7 +22,7 @@
                 /**
                  * Functions hooked into `theme/single/sidebar` action.
                  *
-                 * @hooked Tonik\Theme\App\Structure\render_sidebar - 10
+                 * @hooked Ascii\Theme\App\Structure\render_sidebar - 10
                  */
                 do_action('theme/single/sidebar');
             ?>

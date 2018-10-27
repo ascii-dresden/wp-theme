@@ -4,7 +4,7 @@
     /**
      * Functions hooked into `theme/index/header` action.
      *
-     * @hooked Tonik\Theme\Index\render_header - 10
+     * @hooked Ascii\Theme\Index\render_header - 10
      */
     do_action('theme/index/header');
 ?>
@@ -21,7 +21,7 @@
                             /**
                              * Functions hooked into `theme/index/post/thumbnail` action.
                              *
-                             * @hooked Tonik\Theme\App\Structure\render_post_thumbnail - 10
+                             * @hooked Ascii\Theme\App\Structure\render_post_thumbnail - 10
                              */
                             do_action('theme/index/post/thumbnail');
                         ?>
@@ -32,7 +32,7 @@
                     /**
                      * Functions hooked into `theme/index/content/none` action.
                      *
-                     * @hooked Tonik\Theme\App\Structure\render_empty_content - 10
+                     * @hooked Ascii\Theme\App\Structure\render_empty_content - 10
                      */
                     do_action('theme/index/content/none');
                 ?>
@@ -44,7 +44,7 @@
                 /**
                  * Functions hooked into `theme/index/sidebar` action.
                  *
-                 * @hooked Tonik\Theme\App\Structure\render_sidebar - 10
+                 * @hooked Ascii\Theme\App\Structure\render_sidebar - 10
                  */
                 do_action('theme/index/sidebar');
             ?>

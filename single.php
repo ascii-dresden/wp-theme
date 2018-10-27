@@ -1,6 +1,6 @@
 <?php
 
-namespace Tonik\Theme\Single;
+namespace Ascii\Theme\Single;
 
 /*
 |------------------------------------------------------------------
@@ -13,7 +13,7 @@ namespace Tonik\Theme\Single;
 |
 */
 
-use function Tonik\Theme\App\template;
+use function Ascii\Theme\App\template;
 
 /**
  * Renders single post.

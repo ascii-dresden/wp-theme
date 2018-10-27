@@ -1,6 +1,6 @@
 <?php
 
-namespace Tonik\Theme\Searchform;
+namespace Ascii\Theme\Searchform;
 
 /*
 |------------------------------------------------------------------
@@ -12,7 +12,7 @@ namespace Tonik\Theme\Searchform;
 |
 */
 
-use function Tonik\Theme\App\template;
+use function Ascii\Theme\App\template;
 
 /**
  * Renders search form.

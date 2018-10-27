@@ -1,6 +1,6 @@
 <?php
 
-namespace Tonik\Theme\Page;
+namespace Ascii\Theme\Page;
 
 /*
 |------------------------------------------------------------------
@@ -13,7 +13,7 @@ namespace Tonik\Theme\Page;
 |
 */
 
-use function Tonik\Theme\App\template;
+use function Ascii\Theme\App\template;
 
 /**
  * Renders single page.

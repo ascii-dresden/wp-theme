@@ -1,6 +1,6 @@
 <?php
 
-namespace Tonik\Theme\NotFound;
+namespace Ascii\Theme\NotFound;
 
 /*
 |------------------------------------------------------------------
@@ -12,7 +12,7 @@ namespace Tonik\Theme\NotFound;
 |
 */
 
-use function Tonik\Theme\App\template;
+use function Ascii\Theme\App\template;
 
 /**
  * Renders 404 page header.
@@ -26,7 +26,7 @@ function render_header()
         'lead' => __('The page you are looking for no longer exists.'),
     ]);
 }
-add_action('theme/index/header', 'Tonik\Theme\NotFound\render_header');
+add_action('theme/index/header', 'Ascii\Theme\NotFound\render_header');
 
 /**
  * Renders 404 page.

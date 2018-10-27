@@ -1,6 +1,6 @@
 <?php
 
-namespace Tonik\Theme\Header;
+namespace Ascii\Theme\Header;
 
 /*
 |------------------------------------------------------------------
@@ -12,7 +12,7 @@ namespace Tonik\Theme\Header;
 |
 */
 
-use function Tonik\Theme\App\template;
+use function Ascii\Theme\App\template;
 
 /**
  * Renders layout's head.

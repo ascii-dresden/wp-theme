@@ -1,6 +1,6 @@
 <?php
 
-namespace Tonik\Theme\App\Setup;
+namespace Ascii\Theme\App\Setup;
 
 /*
 |-----------------------------------------------------------
@@ -22,4 +22,4 @@ function example_action()
 {
     //
 }
-add_filter('excerpt_length', 'Tonik\Theme\App\Setup\example_action');
+add_filter('excerpt_length', 'Ascii\Theme\App\Setup\example_action');

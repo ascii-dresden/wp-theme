@@ -1,6 +1,6 @@
 <?php
 
-namespace Tonik\Theme\App\Setup;
+namespace Ascii\Theme\App\Setup;
 
 /*
 |-----------------------------------------------------------
@@ -13,7 +13,7 @@ namespace Tonik\Theme\App\Setup;
 |
 */
 
-use function Tonik\Theme\App\theme;
+use function Ascii\Theme\App\theme;
 use Tonik\Gin\Foundation\Theme;
 use WP_Query;
 
@@ -38,4 +38,4 @@ function bind_books_service()
         ]);
     });
 }
-add_action('init', 'Tonik\Theme\App\Setup\bind_books_service');
+add_action('init', 'Ascii\Theme\App\Setup\bind_books_service');

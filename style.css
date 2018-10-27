@@ -2,13 +2,13 @@
 This file is responsible only for providing theme information that are displayed
 in `Apperance > Themes`. Do not write in here any CSS declarations.
 
-Theme Name: {{ theme.name }}
-Theme URI: {{ theme.url }}
-Description: {{ theme.description }}
-Version: {{ theme.version }}
-Author: {{ theme.author }}
-Author URI: {{ theme.author.url }}
-Text Domain: {{ theme.textdomain }}
-License: GPLv2 License
-License URI: https://wordpress.org/about/gpl/
+Theme Name: Ascii Dresden
+Theme URI: https://github.com/ascii-dresden/wp-theme
+Description: ascii Dresden Wordpress Theme
+Version: 0.1.0
+Author: Members of the ascii
+Author URI: https://github.com/ascii-dresden
+Text Domain: ascii
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
 */
